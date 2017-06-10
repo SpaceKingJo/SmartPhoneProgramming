@@ -42,9 +42,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1T-1b-JBa">
                                 <rect key="frame" x="303" y="472" width="43" height="30"/>
                                 <state key="normal" title="내 위치"/>
-                                <connections>
-                                    <segue destination="yRu-tN-5Ui" kind="show" id="5JE-4o-amH"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -126,40 +123,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Wb-oW-0Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1697" y="-260"/>
-        </scene>
-        <!--Location Map View Controller-->
-        <scene sceneID="i3t-Ds-TJD">
-            <objects>
-                <viewController id="yRu-tN-5Ui" customClass="LocationMapViewController" customModule="RealLastCalc" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="axS-sJ-GzS"/>
-                        <viewControllerLayoutGuide type="bottom" id="sly-nC-LIc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4j6-aa-XgL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-XK-5ME">
-                                <rect key="frame" x="44" y="111" width="286" height="320"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="sly-nC-LIc" firstAttribute="top" secondItem="Yln-XK-5ME" secondAttribute="bottom" constant="236" id="5rO-Jm-jT8"/>
-                            <constraint firstItem="Yln-XK-5ME" firstAttribute="leading" secondItem="4j6-aa-XgL" secondAttribute="leadingMargin" constant="28" id="9t8-Qk-m9M"/>
-                            <constraint firstItem="Yln-XK-5ME" firstAttribute="centerX" secondItem="4j6-aa-XgL" secondAttribute="centerX" id="Dhs-Ji-o4f"/>
-                            <constraint firstItem="Yln-XK-5ME" firstAttribute="top" secondItem="axS-sJ-GzS" secondAttribute="bottom" constant="47" id="ZNf-Nb-880"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="mapView" destination="Yln-XK-5ME" id="FST-hz-tA1"/>
-                        <outlet property="sideView" destination="Yln-XK-5ME" id="PCJ-V9-zig"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xyv-Im-C3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1696.8" y="452.92353823088462"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2Ha-WW-KQY">

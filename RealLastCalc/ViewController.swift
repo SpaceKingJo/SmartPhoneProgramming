@@ -20,12 +20,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UINavigationC
     let regionRadius: CLLocationDistance = 300
     //let initialLocation = CLLocation(latitude)
     @IBAction func SetMyPosition(_ sender: Any) {
-        mapView.removeAnnotation(mapView.annotations.first!)
+        mapView.removeAnnotations(mapView.annotations)
         let myPos = Artwork(title: "내 위치",
                             locationName: "My Position",
                             discipline: "Sculpture",
                             coordinate: locationManager.location!.coordinate)
-        mapView.addAnnotation(myPos)
+        let jeong = Artwork(title: "지하철",
+                            locationName: "정왕역",
+                            discipline: "Sculpture",
+                            coordinate: CLLocationCoordinate2D(latitude: 37.351746, longitude: 126.742956))
+        //mapView.addAnnotation(myPos)
+        mapView.addAnnotation(jeong)
         centerMapOnLocation(location: locationManager.location!)
     }
     
@@ -37,13 +42,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UINavigationC
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.startUpdatingLocation()
         
-        let myPos = Artwork(title: "내 위치",
-                            locationName: "My Position",
-                            discipline: "Sculpture",
-                            coordinate: locationManager.location!.coordinate)
-        mapView.addAnnotation(myPos)
+        mapView.delegate = self
         
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.Wait1s), userInfo: nil, repeats: false)
+        //let myPos = Artwork(title: "내 위치",
+        //                    locationName: "My Position",
+        //                    discipline: "Sculpture",
+        //                    coordinate: locationManager.location!.coordinate)
+        //mapView.addAnnotation(myPos)
+        //mapView.addAnnotation(myPos)
+        mapView.showsUserLocation = true
+        mapView.showsPointsOfInterest = true
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.Wait1s), userInfo: nil, repeats: true)
         //print(locationManager.location?.coordinate.latitude)
         // Do any additional setup after loading the view, typically from a nib.
         //let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.82944)
@@ -63,7 +72,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UINavigationC
     
     func Wait1s()
     {
-        centerMapOnLocation(location: locationManager.location!)
+        print("1초마다 한 번씩 불린다.")
+        //centerMapOnLocation(location: locationManager.location!)
         //centerMapOnLocation(location: locationManager.location!)
         //locationManager.startUpdatingLocation()
         //print("asd")

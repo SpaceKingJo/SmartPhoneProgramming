@@ -11,6 +11,7 @@
 		A15F5E221EDB31C7000B7354 /* NMapViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */; };
 		A15F5E241EDB3E90000B7354 /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */; };
 		A15F5E261EDB43AE000B7354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15F5E251EDB43AE000B7354 /* Assets.xcassets */; };
+		A15F5E4A1EE2CE3D000B7354 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E491EE2CE3D000B7354 /* VCMapView.swift */; };
 		A19E259C1EC2F9EC0049C324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E259B1EC2F9EC0049C324 /* AppDelegate.swift */; };
 		A19E259E1EC2F9EC0049C324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E259D1EC2F9EC0049C324 /* ViewController.swift */; };
 		A19E25A11EC2F9EC0049C324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19E259F1EC2F9EC0049C324 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMapViewResources.swift; sourceTree = "<group>"; };
 		A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
 		A15F5E251EDB43AE000B7354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15F5E491EE2CE3D000B7354 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		A19E25981EC2F9EC0049C324 /* RealLastCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealLastCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19E259B1EC2F9EC0049C324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19E259D1EC2F9EC0049C324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A15F5E1F1EDB3176000B7354 /* MapViewController.swift */,
 				A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */,
 				A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */,
+				A15F5E491EE2CE3D000B7354 /* VCMapView.swift */,
 			);
 			path = RealLastCalc;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				A15F5E241EDB3E90000B7354 /* LocationMapViewController.swift in Sources */,
 				A19E259C1EC2F9EC0049C324 /* AppDelegate.swift in Sources */,
 				A15F5E201EDB3176000B7354 /* MapViewController.swift in Sources */,
+				A15F5E4A1EE2CE3D000B7354 /* VCMapView.swift in Sources */,
 				A15F5E221EDB31C7000B7354 /* NMapViewResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
