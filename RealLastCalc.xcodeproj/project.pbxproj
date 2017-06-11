@@ -16,6 +16,7 @@
 		A19E259E1EC2F9EC0049C324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E259D1EC2F9EC0049C324 /* ViewController.swift */; };
 		A19E25A11EC2F9EC0049C324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19E259F1EC2F9EC0049C324 /* Main.storyboard */; };
 		A19E25A61EC2F9EC0049C324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19E25A41EC2F9EC0049C324 /* LaunchScreen.storyboard */; };
+		A1DBD52E1EED1CFB006A6512 /* ViewController_Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */; };
 		A1F65C2E1ED590F00080B92A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F65C2D1ED590F00080B92A /* Artwork.swift */; };
 		A1F65C431ED987140080B92A /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1F65C411ED987140080B92A /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1F65C4D1ED98D4B0080B92A /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F65C4B1ED98D4B0080B92A /* ApiGatewayMac.framework */; };
@@ -48,6 +49,7 @@
 		A19E25A01EC2F9EC0049C324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A19E25A51EC2F9EC0049C324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19E25A71EC2F9EC0049C324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Subway.swift; sourceTree = "<group>"; };
 		A1F65C2D1ED590F00080B92A /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		A1F65C3F1ED987090080B92A /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = RealLastCalc/Frameworks/NMapViewerSDK.framework; sourceTree = "<group>"; };
 		A1F65C411ED987140080B92A /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiGatewayMac.framework; path = RealLastCalc/Frameworks/ApiGatewayMac.framework; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				A1F65C4B1ED98D4B0080B92A /* ApiGatewayMac.framework */,
 				A1F65C4C1ED98D4B0080B92A /* NMapViewerSDK.framework */,
 				A1F65C2D1ED590F00080B92A /* Artwork.swift */,
+				A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */,
 				A19E259B1EC2F9EC0049C324 /* AppDelegate.swift */,
 				A19E259D1EC2F9EC0049C324 /* ViewController.swift */,
 				A19E259F1EC2F9EC0049C324 /* Main.storyboard */,
@@ -216,6 +219,7 @@
 				A15F5E201EDB3176000B7354 /* MapViewController.swift in Sources */,
 				A15F5E4A1EE2CE3D000B7354 /* VCMapView.swift in Sources */,
 				A15F5E221EDB31C7000B7354 /* NMapViewResources.swift in Sources */,
+				A1DBD52E1EED1CFB006A6512 /* ViewController_Subway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

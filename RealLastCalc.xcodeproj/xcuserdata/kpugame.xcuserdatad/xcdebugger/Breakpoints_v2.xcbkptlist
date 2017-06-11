@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RealLastCalc/ViewController.swift"
-            timestampString = "518184508.478319"
+            timestampString = "518879755.198846"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -49,6 +49,147 @@
             endingLineNumber = "6"
             landmarkName = "mapView"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealLastCalc/ViewController.swift"
+            timestampString = "518879755.198846"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealLastCalc/ViewController.swift"
+            timestampString = "518879755.198846"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealLastCalc/ViewController.swift"
+            timestampString = "518871286.748938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealLastCalc/ViewController.swift"
+            timestampString = "518872598.320999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealLastCalc.ViewController.__deallocating_deinit"
+                  moduleName = "RealLastCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpugame/Documents/LabProjects/RealLastCalc/RealLastCalc/SmartPhoneProgramming/RealLastCalc/ViewController.swift"
+                  timestampString = "518873490.145092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealLastCalc.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RealLastCalc.ViewController"
+                  moduleName = "RealLastCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpugame/Documents/LabProjects/RealLastCalc/RealLastCalc/SmartPhoneProgramming/RealLastCalc/ViewController.swift"
+                  timestampString = "518873490.146437"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealLastCalc.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RealLastCalc.ViewController"
+                  moduleName = "RealLastCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpugame/Documents/LabProjects/RealLastCalc/RealLastCalc/SmartPhoneProgramming/RealLastCalc/ViewController.swift"
+                  timestampString = "518873490.147865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealLastCalc.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RealLastCalc.ViewController&gt;"
+                  moduleName = "RealLastCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpugame/Documents/LabProjects/RealLastCalc/RealLastCalc/SmartPhoneProgramming/RealLastCalc/ViewController.swift"
+                  timestampString = "518873490.149175"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealLastCalc.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RealLastCalc.ViewController&gt;"
+                  moduleName = "RealLastCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpugame/Documents/LabProjects/RealLastCalc/RealLastCalc/SmartPhoneProgramming/RealLastCalc/ViewController.swift"
+                  timestampString = "518873490.150573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
