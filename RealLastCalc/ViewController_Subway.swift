@@ -11,7 +11,7 @@ import UIKit
 class ViewController_Subway: UIViewController, XMLParserDelegate {
     
     @IBOutlet weak var tbData: UITableView!
-    
+    var getSubCode: String?
     var parser = XMLParser()
     var posts = NSMutableArray()
     var elements = NSMutableDictionary()

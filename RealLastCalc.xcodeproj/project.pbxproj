@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10203331EEDFE54002A3B76 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10203321EEDFE54002A3B76 /* CalcViewController.swift */; };
+		A10203351EEE1177002A3B76 /* abstract-1239439_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A10203341EEE1177002A3B76 /* abstract-1239439_1920.jpg */; };
 		A15F5E201EDB3176000B7354 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E1F1EDB3176000B7354 /* MapViewController.swift */; };
 		A15F5E221EDB31C7000B7354 /* NMapViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */; };
 		A15F5E241EDB3E90000B7354 /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A10203321EEDFE54002A3B76 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		A10203341EEE1177002A3B76 /* abstract-1239439_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abstract-1239439_1920.jpg"; sourceTree = "<group>"; };
 		A15F5E1F1EDB3176000B7354 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMapViewResources.swift; sourceTree = "<group>"; };
 		A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				A1F65C4B1ED98D4B0080B92A /* ApiGatewayMac.framework */,
 				A1F65C4C1ED98D4B0080B92A /* NMapViewerSDK.framework */,
 				A1F65C2D1ED590F00080B92A /* Artwork.swift */,
+				A10203341EEE1177002A3B76 /* abstract-1239439_1920.jpg */,
 				A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */,
 				A19E259B1EC2F9EC0049C324 /* AppDelegate.swift */,
 				A19E259D1EC2F9EC0049C324 /* ViewController.swift */,
@@ -107,6 +112,7 @@
 				A15F5E231EDB3E90000B7354 /* LocationMapViewController.swift */,
 				A15F5E211EDB31C7000B7354 /* NMapViewResources.swift */,
 				A15F5E491EE2CE3D000B7354 /* VCMapView.swift */,
+				A10203321EEDFE54002A3B76 /* CalcViewController.swift */,
 			);
 			path = RealLastCalc;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 				A19E25A61EC2F9EC0049C324 /* LaunchScreen.storyboard in Resources */,
 				A15F5E261EDB43AE000B7354 /* Assets.xcassets in Resources */,
 				A19E25A11EC2F9EC0049C324 /* Main.storyboard in Resources */,
+				A10203351EEE1177002A3B76 /* abstract-1239439_1920.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +223,7 @@
 				A1F65C2E1ED590F00080B92A /* Artwork.swift in Sources */,
 				A15F5E241EDB3E90000B7354 /* LocationMapViewController.swift in Sources */,
 				A19E259C1EC2F9EC0049C324 /* AppDelegate.swift in Sources */,
+				A10203331EEDFE54002A3B76 /* CalcViewController.swift in Sources */,
 				A15F5E201EDB3176000B7354 /* MapViewController.swift in Sources */,
 				A15F5E4A1EE2CE3D000B7354 /* VCMapView.swift in Sources */,
 				A15F5E221EDB31C7000B7354 /* NMapViewResources.swift in Sources */,
