@@ -19,6 +19,9 @@
 		A19E25A11EC2F9EC0049C324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19E259F1EC2F9EC0049C324 /* Main.storyboard */; };
 		A19E25A61EC2F9EC0049C324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19E25A41EC2F9EC0049C324 /* LaunchScreen.storyboard */; };
 		A1DBD52E1EED1CFB006A6512 /* ViewController_Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */; };
+		A1E14B531EF0741500E414CA /* train-2373323_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E14B521EF0741500E414CA /* train-2373323_1920.jpg */; };
+		A1E14B551EF0792100E414CA /* ViewController_Serch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E14B541EF0792100E414CA /* ViewController_Serch.swift */; };
+		A1E14B571EF1054D00E414CA /* a237c369b83cfc6b67eee561ae7d196d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E14B561EF1054D00E414CA /* a237c369b83cfc6b67eee561ae7d196d.jpg */; };
 		A1F65C2E1ED590F00080B92A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F65C2D1ED590F00080B92A /* Artwork.swift */; };
 		A1F65C431ED987140080B92A /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1F65C411ED987140080B92A /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1F65C4D1ED98D4B0080B92A /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F65C4B1ED98D4B0080B92A /* ApiGatewayMac.framework */; };
@@ -54,6 +57,9 @@
 		A19E25A51EC2F9EC0049C324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19E25A71EC2F9EC0049C324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Subway.swift; sourceTree = "<group>"; };
+		A1E14B521EF0741500E414CA /* train-2373323_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "train-2373323_1920.jpg"; sourceTree = "<group>"; };
+		A1E14B541EF0792100E414CA /* ViewController_Serch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Serch.swift; sourceTree = "<group>"; };
+		A1E14B561EF1054D00E414CA /* a237c369b83cfc6b67eee561ae7d196d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a237c369b83cfc6b67eee561ae7d196d.jpg; sourceTree = "<group>"; };
 		A1F65C2D1ED590F00080B92A /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		A1F65C3F1ED987090080B92A /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = RealLastCalc/Frameworks/NMapViewerSDK.framework; sourceTree = "<group>"; };
 		A1F65C411ED987140080B92A /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiGatewayMac.framework; path = RealLastCalc/Frameworks/ApiGatewayMac.framework; sourceTree = "<group>"; };
@@ -99,8 +105,11 @@
 				A1F65C4B1ED98D4B0080B92A /* ApiGatewayMac.framework */,
 				A1F65C4C1ED98D4B0080B92A /* NMapViewerSDK.framework */,
 				A1F65C2D1ED590F00080B92A /* Artwork.swift */,
+				A1E14B561EF1054D00E414CA /* a237c369b83cfc6b67eee561ae7d196d.jpg */,
+				A1E14B521EF0741500E414CA /* train-2373323_1920.jpg */,
 				A10203341EEE1177002A3B76 /* abstract-1239439_1920.jpg */,
 				A1DBD52D1EED1CFB006A6512 /* ViewController_Subway.swift */,
+				A1E14B541EF0792100E414CA /* ViewController_Serch.swift */,
 				A19E259B1EC2F9EC0049C324 /* AppDelegate.swift */,
 				A19E259D1EC2F9EC0049C324 /* ViewController.swift */,
 				A19E259F1EC2F9EC0049C324 /* Main.storyboard */,
@@ -190,6 +199,8 @@
 			files = (
 				A19E25A61EC2F9EC0049C324 /* LaunchScreen.storyboard in Resources */,
 				A15F5E261EDB43AE000B7354 /* Assets.xcassets in Resources */,
+				A1E14B531EF0741500E414CA /* train-2373323_1920.jpg in Resources */,
+				A1E14B571EF1054D00E414CA /* a237c369b83cfc6b67eee561ae7d196d.jpg in Resources */,
 				A19E25A11EC2F9EC0049C324 /* Main.storyboard in Resources */,
 				A10203351EEE1177002A3B76 /* abstract-1239439_1920.jpg in Resources */,
 			);
@@ -221,6 +232,7 @@
 			files = (
 				A19E259E1EC2F9EC0049C324 /* ViewController.swift in Sources */,
 				A1F65C2E1ED590F00080B92A /* Artwork.swift in Sources */,
+				A1E14B551EF0792100E414CA /* ViewController_Serch.swift in Sources */,
 				A15F5E241EDB3E90000B7354 /* LocationMapViewController.swift in Sources */,
 				A19E259C1EC2F9EC0049C324 /* AppDelegate.swift in Sources */,
 				A10203331EEDFE54002A3B76 /* CalcViewController.swift in Sources */,

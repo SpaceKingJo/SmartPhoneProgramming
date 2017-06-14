@@ -52,9 +52,9 @@ class LocationMapViewController: UIViewController, NMapViewDelegate, NMapPOIdata
             view.addSubview(button)
         }
         
-        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(ViewController.Wait1s), userInfo: nil, repeats: false)
+        timer = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(ViewController.Wait1s), userInfo: nil, repeats: false)
     
-        timerTwo = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(Sheep), userInfo: nil, repeats: false)
+        timerTwo = Timer.scheduledTimer(timeInterval: 2.4, target: self, selector: #selector(Sheep), userInfo: nil, repeats: false)
     }
     
     func Wait1s()

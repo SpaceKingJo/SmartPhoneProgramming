@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController_Subway: UIViewController, XMLParserDelegate {
     
+    @IBOutlet weak var endSubText: UITextField!
+    @IBOutlet weak var startName: UIButton!
+    @IBOutlet weak var subName: UILabel!
     @IBOutlet weak var tbData: UITableView!
     var getSubCode: String?
+    var getSubName: String?
+    var arrivalSubName: String?
     var parser = XMLParser()
     var posts = NSMutableArray()
     var elements = NSMutableDictionary()
@@ -19,10 +24,16 @@ class ViewController_Subway: UIViewController, XMLParserDelegate {
     var title1 = NSMutableString()
     var date = NSMutableString()
     var lineName = NSMutableString()
-    
+    var listOfSubwayName: [String] = []
+    var shtTransferMsg: String = ""
+    var endSubName: String = ""
+    var sendStart: String = ""
+    var sendEnd: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        startName.setTitle(getSubName, for: UIControlState.normal)
+        subName.text = getSubName! + " 막차 첫차"
         beginParsing()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -35,7 +46,9 @@ class ViewController_Subway: UIViewController, XMLParserDelegate {
     func beginParsing()
     {
         posts = []
-        parser = XMLParser(contentsOf:(NSURL(string:"http://swopenapi.seoul.go.kr/api/subway/52534a59666a6f68383379594f534e/xml/firstLastTimetable/0/5/%EC%98%A4%EC%9D%B4%EB%8F%84"))! as URL)!
+        sendStart = getSubName!
+        getSubName = getSubName?.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
+        parser = XMLParser(contentsOf:(((NSURL(string:"http://swopenapi.seoul.go.kr/api/subway/52534a59666a6f68383379594f534e/xml/firstLastTimetable/0/5/" + getSubName!))! as URL) as URL) as URL)!
         parser.delegate = self
         parser.parse()
         tbData!.reloadData()
@@ -103,6 +116,34 @@ class ViewController_Subway: UIViewController, XMLParserDelegate {
         cell.detailTextLabel?.text = (posts.object(at: indexPath.row) as AnyObject).value(forKey: "date") as! NSString as String
         return cell as UITableViewCell
     }
+    @IBAction func SerceButtonDown(_ sender: Any) {
+        endSubText.resignFirstResponder()
+    }
+    @IBAction func EditinDidBeginSub(_ sender: Any) {
+        endSubText.text = ""
+    }
+    @IBAction func viewTapped(sender : AnyObject){
+        endSubText.resignFirstResponder()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //let indexPath = self.tableView.indexPathForSelectedRow
+        endSubName = endSubText.text!
+        sendEnd = endSubName
+        endSubName = endSubName.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
+        endSubName = "http://swopenapi.seoul.go.kr/api/subway/52534a59666a6f68383379594f534e/xml/shortestRoute/0/5/" + getSubName! + "/" + endSubName
+        if segue.identifier == "serchSegue"{
+            if let gamePickerViewController = segue.destination as?
+                ViewController_Serch{
+                gamePickerViewController.serchXml = endSubName
+                gamePickerViewController.endSubName = sendEnd
+                gamePickerViewController.startSubName = sendStart
+            }
+        }
+    }
+
+    
+    
 }
 
 

@@ -42,6 +42,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UINavigationC
     var codeString: [String] = []
     var subAnno: [Artwork] = []
     var sendCode: String = ""
+    var sendName: String = ""
     
     let animals = ["막차 계산하기", "Dog", "Cow", "Mulval"]
     @IBOutlet
@@ -302,15 +303,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UINavigationC
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         sendCode = codeString[indexPath.row]
+        sendName = posName[indexPath.row]
     }
     
+    
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let indexPath = self.tableView.indexPathForSelectedRow
         if segue.identifier == "calcSegue"{
             if let gamePickerViewController = segue.destination as?
                 ViewController_Subway{
-                gamePickerViewController.getSubCode = sendCode
+                gamePickerViewController.getSubCode = codeString[(indexPath?.row)!]
+                gamePickerViewController.getSubName = posName[(indexPath?.row)!]
             }
         }
+    }
+    @IBAction func openNaverMap(_ sender: Any) {
+        let viewController = LocationMapViewController()
+        viewController.title = "내위치"
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
     
 }
